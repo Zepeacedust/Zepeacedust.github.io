@@ -1,0 +1,57 @@
+
+
+header {
+    background-color: darkslateblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    ". . name ."
+    ". title name ."
+}
+.text{
+    float: center;
+    color: salmon;
+    max-width: 60em;
+    margin: auto;
+    
+    text-align: center;
+}
+.nafn {
+    grid-area: name;
+    text-align: right;
+    line-height: 3em;
+    font-size: 75%;
+    color: aqua;
+}
+a{
+    color: aqua;
+}
+.title{
+    grid-area: title;
+    color: lightblue;
+    line-height: 3em;
+}
+blockquote {
+    background: white;
+    opacity: 0.5;
+    border: 0.5em solid gray;
+}
+
+
+
+
+
+
+.leg{
+    background-color: darkslateblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:  
+                "margin 1column column column margin"
+}
+nav{
+    grid-area: column;
+}
+body {
+    background: linear-gradient(blue, aquamarine)
+}
