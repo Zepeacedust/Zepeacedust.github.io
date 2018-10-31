@@ -1,6 +1,6 @@
 
 
-header {
+.haus1 {
     background-color: darkslateblue;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -8,9 +8,18 @@ header {
     ". . name ."
     ". title name ."
 }
+.haus2 {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    text-align: center;
+    background-color: cadetblue;
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    line-height: 20px;
+}
 .text{
     float: center;
-    color: salmon;
+    color: darkgray;
     max-width: 60em;
     margin: auto;
     
@@ -45,13 +54,15 @@ blockquote {
 .leg{
     background-color: darkslateblue;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:  
-                "margin 1column column column margin"
+                "column column column"
 }
-nav{
-    grid-area: column;
-}
+
 body {
-    background: linear-gradient(blue, aquamarine)
+    background: linear-gradient(blue, darkslateblue)
+}
+
+.copyrite{
+    text-align: center;
 }
