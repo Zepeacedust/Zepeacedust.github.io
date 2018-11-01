@@ -45,7 +45,9 @@ blockquote {
     opacity: 0.5;
     border: 0.5em solid gray;
 }
-
+.heddy {
+    color: darkmagenta;
+}
 
 
 
@@ -65,4 +67,20 @@ body {
 
 .copyrite{
     text-align: center;
+}
+.links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: purple;
+    border: 5px firebrick solid;
+}
+.or {
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    background-color: white;
+    border-radius: 1em;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 200%
 }
