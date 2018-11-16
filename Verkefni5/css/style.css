@@ -6,14 +6,27 @@ header {
 body {
     background-color: aquamarine;
 }
-.center{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+h2 {
+    text-align: center;
+}
+.invisible{
+    display: none;
 }
 #efni {
     margin-top: 1em;
     display: none;
     grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.mynd {
+    border-radius: 100%;
+    size: 1em;
+}
+.ritgerd {
+    text-align: center;
+}
+#rit {
+    display: none;
+    grid-auto-columns: 1fr 1fr;
     text-align: center;
 }
