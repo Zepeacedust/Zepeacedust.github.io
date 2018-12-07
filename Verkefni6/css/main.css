@@ -57,7 +57,10 @@ nav a {
         grid-template-columns: 1fr 2fr;
         grid-template-areas: 
         "right midja"
-        "left  midja"
+        "left  midja";
+    }
+    body {
+        background-color: orange;
     }
 }
 @media (min-width: 48em) {
