@@ -67,11 +67,12 @@ nav a {
     "left midja right"
     }
     body {
+        display: grid;
         grid-template-areas: 
         "title"
         "menu"
         "content"
-        "footer"
+        "footer";
     }
     nav ul {
         display: grid;
