@@ -27,7 +27,7 @@ main {
     grid-template-areas:
     "midja"
     "right"
-    "left"
+    "left";
 }
 nav{
     grid-area: menu;
@@ -42,8 +42,7 @@ nav li {
     border-bottom: 1px solid lime; 
     padding: 0;
     margin:0;
-    border: 0;
-    border-bottom: 1px solid lime; 
+    border: 0; 
 }
 nav a {
     display: block;
@@ -52,22 +51,46 @@ nav a {
     text-align: center;
     padding: .4em 1em;
 }
-@media (min-width: 37.5em) {
+footer {
+    background-color: salmon;
+    grid-area: footer;
+}
+img, video {
+max-width: 100%;
+height: auto;
+}
+img {
+display: block; /* losna við inline "whitespace" */
+}
+
+figure {
+margin:0;   /* ath! í normalize er sjálsfgefið margin 40px. */
+border: 1px solid orange;
+}
+.myndir {
+    display: grid;
+    width: 160px;
+}
+@media screen and (min-width: 30em) {
+
+    .myndir {
+        display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+@media screen and (min-width: 37.5em) { /* 600px */
     .content {
         grid-template-columns: 1fr 2fr;
         grid-template-areas: 
         "right midja"
         "left  midja";
     }
-    body {
-        background-color: orange;
-    }
 }
-@media (min-width: 48em) {
+@media screen and (min-width: 48em) { /* 768px */
     .content { 
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas: 
-    "left midja right"
+    "left midja right";
     }
     body {
         display: grid;
@@ -80,5 +103,29 @@ nav a {
     nav ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+@media screen and (min-width: 60em) { 
+    body { 
+      max-width: 58em; 
+      margin: 0 auto;
+    }
+    .content {
+      grid-template-areas:
+          "left midja right";   
+    }
+    .myndir {
+    grid-template-columns: 1fr 1fr;
+    width: 2fr
+}
+}
+@media screen and (min-width: 80em) { 
+    body { 
+        max-width: 77em;
+        margin: 0 auto;
+    }
+    .myndir {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 320px;
     }
 }

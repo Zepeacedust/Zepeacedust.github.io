@@ -154,12 +154,12 @@ max-width: 100%;
 height: auto;
 }
 img {
-display: block; /* losna við inline "whitespace" */
+    display: block; /* losna við inline "whitespace" */
 }
 
 figure {
-margin:0;   /* ath! í normalize er sjálsfgefið margin 40px. */
-border: 1px solid orange;
+    margin:0;   /* ath! í normalize er sjálsfgefið margin 40px. */
+    border: 1px solid orange;
 }
 .myndabox {
     display: grid;
@@ -234,5 +234,5 @@ Viðmið - breakpoints 80em = 1280px +
     .myndabox {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         width: 1fr;
-  }
+    }
 }
