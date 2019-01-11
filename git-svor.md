@@ -15,3 +15,4 @@ git branch - búa til nýtt branch í repositoryinu
 version control er leið til að geta séð sögu eithverja filea
 5.
 til að geta unnið með öðrum og séð hvað hefur verið að gerast 
+git er frekar nett
