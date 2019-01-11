@@ -7,4 +7,8 @@ mkdir - búa til directory
 git clone - afrita repisitory á tölvna þýna
 git checckout - skipta um grein í repository
 git branch - býr til nýa grein
+3. 
+git log - gefa lista af öllu sem maður hefur commitað
+git checkout - skipta í aðra útgáfu að repositorinu
+git branch - búa til nýtt branch í repositoryinu
 
