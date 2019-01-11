@@ -14,4 +14,7 @@ git branch - búa til nýtt branch í repositoryinu
 4.
 version control er leið til að geta séð sögu eithverja filea
 5.
-til að geta unnið með öðrum og séð hvað hefur verið að gerast 
+til að geta unnið með öðrum og séð hvað hefur verið að gerast
+6.
+eins oft og maður getur
+ 
