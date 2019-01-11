@@ -17,4 +17,7 @@ version control er leið til að geta séð sögu eithverja filea
 til að geta unnið með öðrum og séð hvað hefur verið að gerast
 6.
 eins oft og maður getur
- 
+7.
+working directory - directory sem öll dilein af því sem er verið að vinna í núna
+staging area - þar sem files eru geymd eftir að þeym hefur verið addað í commit
+  
