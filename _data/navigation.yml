@@ -1,6 +1,8 @@
 - name: Home
-  link: /vefhonnun/
+  link: /
 - name: About
-  link: /vefhonnun/about/
+  link: /about/
 - name: Blog
-  link: /vefhonnun/blog.html
+  link: /blog.html
+- name: Staff
+  link: /staff.html
