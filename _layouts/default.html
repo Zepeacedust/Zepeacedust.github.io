@@ -4,9 +4,18 @@
 	    <meta charset="UTF-8">
 		<title> {{ page.title }}</title>
 		<link rel="stylesheet" href="/vefhonnun/assets/css/styles.css">
+		{% feed_meta %}
+    	{% seo %}
 	</head> 
-	<body> 
-		{% include navigation.html %}
-		{{ content }}
+	<body>
+		<div class="left">
+			{% include navigation.html %}
+		</div>
+		<div class="centre">
+			{{ content }}
+		</div>
+		<div class="right">
+			<p>þetta er sidebar til að sýna responsive  web  design</p>
+		</div>
 	</body>
 </html>
