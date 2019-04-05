@@ -7,16 +7,26 @@
     	{% seo %}
 	</head> 
 	<body>
-		<div class="left">
-			{% include navigation.html %}
+		<div class="content">
+			<div class = "nav">
+				{% include navigation.html %}
+			</div>
+			<div class="left bar">
+				<div class = "ad">
+					<a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+						<img src="/vefhonnun/assets/img/monkey-svgrepo-com.svg" width="50px" height="50px">
+					</a>
+			</div>
+			<p>
+				Hit the monkey and get a Cookie.
+			</p>
 		</div>
-		<div class="centre">
+		<div class="centre bar">
 			{{ content }}
 		</div>
-		<div class="right">
-			<p>þetta er sidebar til að sýna responsive  web  design</p>
+		<div class="right bar">
 			<img src="/vefhonnun/assets/img/Globe.svg" alt="heimurinn" height="250" width="250">
-			<p><span class="icon-github"></span></p>
 		</div>
+	</content>
 	</body>
 </html>

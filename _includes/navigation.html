@@ -1,5 +1,10 @@
-<nav class =  "left">
-  {% for item in site.data.navigation %}
-    <a href="{{ site.baseurl }}{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
-  {% endfor %}
+<nav class = "left">
+    <div class="dropdown">
+        <button class="dropbtn">Navigation</button>
+        <div class="dropdown-content">
+            {% for item in site.data.navigation %}
+            <a href="{{ site.baseurl }}{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+            {% endfor %}
+        </div>
+    </div>
 </nav>
