@@ -1,0 +1,17 @@
+@keyframes admination{ 
+    0%{ 
+        transform: translateX(240%); 
+        border: 10px solid red;
+        background-color: red;
+    } 
+    50%{ 
+        transform: translateX(0%);
+        border: 10px solid green;
+        background-color: green; 
+    } 
+    100%{ 
+        transform: translateX(240%); 
+        border: 10px solid red; 
+        background-color: red;
+    } 
+} 
