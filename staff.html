@@ -4,12 +4,24 @@ title: Staff
 ---
 <h1>Staff</h1>
 
-<ul>
+<table>
+  <tr>
+    <th>
+      Name
+    </th>
+    <th>
+      Position
+    </th>
+    <th>
+      Description
+    </th>
+  </tr>
   {% for author in site.authors %}
-    <li>
-        <h2><a href="{{ site.baseurl }}{{ author.url }}">{{ author.name }}</a></h2>
-      <h3>{{ author.position }}</h3>
-      <p>{{ author.content | markdownify }}</p>
-    </li>
+    <tr>
+      <td><a href="{{ site.baseurl }}{{ author.url }}">{{ author.name }}</a></td>
+      <td>{{ author.position }}</td>
+      <td>{{ author.content | markdownify }}</td>
+    </tr>
   {% endfor %}
-</ul>
+</table>
+
